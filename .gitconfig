@@ -1,0 +1,2 @@
+[alias]
+  loga = log --graph --pretty=oneline

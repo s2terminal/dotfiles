@@ -8,6 +8,7 @@ git clone this to `~/dotfiles` directory and
 $ echo '. ~/dotfiles/.bashrc' >> ~/.bashrc
 $ echo '[include]
   path = ~/dotfiles/.gitconfig' >> ~/.gitconfig
+$ echo 'Include ~/dotfiles/.ssh/config' >> ~/.ssh/config
 ```
 
 ## License

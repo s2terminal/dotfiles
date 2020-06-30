@@ -1,5 +1,6 @@
 [alias]
-  loga = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'# --date-order
+  loga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
 [color]
   diff = auto
   status = auto

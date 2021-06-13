@@ -1,4 +1,6 @@
 export PS1="[\w] $ "
+export LANG=ja_JP.UTF-8
+
 alias s='sudo'
 alias cp='cp --interactive'
 alias mv='mv --interactive'

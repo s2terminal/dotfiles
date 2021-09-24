@@ -8,3 +8,7 @@
   branch = auto
   interactive = auto
   grep = auto
+
+[init]
+  defaultBranch = main
+

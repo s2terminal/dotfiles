@@ -10,3 +10,5 @@ alias dun='docker run --interactive --tty --rm --volume $(pwd):/app --workdir /a
 alias dunpx='dun node:alpine npx'
 alias dcun='docker-compose run --rm'
 alias jstnow='date "+%Y%m%d-%H%M%S"'
+alias aptoutdate='sudo apt-get update && sudo apt-get dist-upgrade'
+

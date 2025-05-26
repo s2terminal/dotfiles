@@ -1,4 +1,6 @@
 #!/bin/sh
-echo '. ~/dotfiles/.bashrc' >> ~/.bashrc
-echo '[include]
-  path = ~/dotfiles/.gitconfig' >> ~/.gitconfig
+
+echo ". $(pwd)/.bashrc" >> ~/.bashrc
+echo "[include]
+  path = $(pwd)/.gitconfig" >> ~/.gitconfig
+echo "Include $(pwd)/.ssh/config" >> ~/.ssh/config

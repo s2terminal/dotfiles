@@ -1,4 +1,4 @@
-export PS1="[\w] $ "
+export PS1='\[\e[1;90m\]\w \[\e[0m\]\$ '
 export LANG=ja_JP.UTF-8
 
 alias s='sudo'

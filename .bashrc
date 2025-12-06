@@ -1,5 +1,6 @@
 export PS1='\[\e[1;94m\]\w \[\e[0m\]\$ '
 export LANG=ja_JP.UTF-8
+export EDITOR=vim
 
 alias s='sudo'
 alias cp='cp --interactive'

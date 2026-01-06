@@ -1,6 +1,8 @@
 export PS1='\[\e[1;94m\]\w \[\e[0m\]\$ '
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
+# Podman+Docker Composeで使うための設定
+export DOCKER_HOST=unix:///run/user/$(id -u)/podman/podman.sock
 # ディレクトリ移動ごとにタブタイトルを「現在のディレクトリ名」に変更
 case "$TERM" in
 xterm*|rxvt*)

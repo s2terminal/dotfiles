@@ -1,6 +1,7 @@
 [alias]
   loga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   fpush = push --force-with-lease
+  nopush = remote set-url --push origin no_push
 
 [color]
   diff = auto

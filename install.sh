@@ -4,3 +4,4 @@ echo ". $(pwd)/.bashrc" >> ~/.bashrc
 echo "[include]
   path = $(pwd)/.gitconfig" >> ~/.gitconfig
 echo "Include $(pwd)/.ssh/config" >> ~/.ssh/config
+echo "source-file $(pwd)/.tmux.conf" >> ~/.tmux.conf

@@ -16,3 +16,7 @@ git config --global --get-all include.path | grep -qxF "$DOTFILES/.gitconfig" ||
 # Setup miserc symlink
 mkdir -p ~/.config/mise/conf.d
 ln -sf "$DOTFILES/mise/my.mise.toml" ~/.config/mise/conf.d/my.mise.toml
+
+# Setup Claude settings symlink
+mkdir -p ~/.claude
+ln -sf "$DOTFILES/claude/my.settings.json" ~/.claude/settings.json

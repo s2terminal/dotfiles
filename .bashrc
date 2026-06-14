@@ -21,3 +21,11 @@ alias dun='docker run --interactive --tty --rm --volume $(pwd):/app --workdir /a
 alias dimages="docker images --format 'table {{truncate .Repository 50}}\t{{.Tag}}\t{{.Size}}\t{{.ID}}\t{{.CreatedAt}}'"
 alias jstnow='date "+%Y%m%d-%H%M%S"'
 alias aptoutdate='sudo apt update && sudo apt upgrade'
+
+# OSC 8ハイパーリンクでクリッカブルなURLを表示する
+# 使い方: hlink URL [表示テキスト]
+hlink() {
+  local url="$1"
+  local text="${2:-$1}"
+  printf '\e]8;;%s\e\\%s\e]8;;\e\\\n' "$url" "$text"
+}

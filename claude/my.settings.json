@@ -1,5 +1,8 @@
 {
   "language": "Japanese",
+  "sandbox": {
+    "enabled": true
+  },
   "autoUpdatesChannel": "stable",
   "theme": "auto"
 }
